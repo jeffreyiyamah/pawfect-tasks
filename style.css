@@ -1,0 +1,484 @@
+*{
+    background-color: transparent;
+    padding: 0 ;
+    margin: 0;
+    
+}
+:root{
+    --gold-yellow-: rgb(255, 230, 0);
+    --red-: rgb(255, 48, 48);
+}
+body{
+    height: 100%;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    
+}
+h1{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+}
+.dark_mode{
+    margin-top: 5px;
+    float: left;
+    flex-wrap: nowrap;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+    margin-right: 600px;
+    text-decoration: none;
+}
+
+.subtitle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    
+    
+}
+.box{
+    width: 100%;
+    height: 35px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to top right, #8e1e1e, #ff0000b5);
+    z-index: 3;
+    border-radius: 0.75 px;
+    display:grid
+
+    
+   
+}
+.calendar_weather {
+    display: flex;
+    margin-top: 200px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 900px;
+    width: 300px;
+    border-top-left-radius: 30px;
+    background-image: linear-gradient(to top right, #ff0000b5, #8e1e1e);
+  }
+  .calendar_weather i.fa-solid.fa-plus{
+   display: flex;
+   margin-left: 20px;
+   margin-top: 13px;
+   font-weight: bold;
+   color: white;
+   cursor: pointer;
+  }
+   .a-t{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+   }
+  .plus-button{
+    
+    list-style: none;
+    border: none;    
+    
+  }
+  @media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .calendar_weather {
+      height: 600px;
+      width: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Styles for screens up to 480px wide */
+    .calendar_weather {
+      height: 400px;
+      width: 200px;
+    }
+  }
+  
+  
+.custom-bars{
+      
+        display: flex;
+        align-items: flex-start;
+        flex-direction: flex-start;
+        justify-content: flex-start;
+        margin-top: -45px;
+        margin-left: 5px;
+
+        color: white;
+        cursor: pointer;
+}
+.dog{
+        justify-content: center;
+        display: flex;
+        margin-bottom: 0px;
+        color: white;
+        margin: 0;
+}
+a{
+        display: flex;
+        margin-right: 5px;
+        color: white;
+        margin: 0;
+        text-decoration: none;
+}
+a.s{
+    position: absolute;
+        top: 4px;
+        right: -5px;
+        color: white;
+        margin: 0;
+        margin-right: 20px;
+        text-decoration: none;
+}
+.first-line{
+    float:none;
+    margin-left: 5px;
+    margin-right: 10px;
+    line-height: 20px;
+    font-size: 15px;
+    margin-left: 5px ;
+    margin-top: 10px;
+   
+}
+.menu{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px ;
+}
+.icon-group{
+    margin-left: 50px;
+}
+.username{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 5px ;
+}
+.usercircle{
+   font-size: 22px;
+}
+span{
+    margin-left: 5px;
+}
+.dropdown-menu {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    height: 60%;
+    width: 150px;
+    z-index: 1;
+    border-bottom-right-radius: 10.5px;
+    background-image: linear-gradient(to bottom, #8e1e1e, #ff0000b5);
+    color: white;
+    box-shadow: 5px,5px,5px grey;
+}
+.box.active .dropdown-menu {
+    display: block;
+  }
+h1{
+    text-align: center;
+}
+footer{
+    position: fixed;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:30px;
+    background-image: linear-gradient(to top right, #8e1e1e, #ff0000b5);
+}
+
+.dark-mode{
+    background-image: linear-gradient(to top right, #000000, #515151b5);
+    background-color: black;
+    
+}
+.dark-mode-2{
+background-color: rgb(36, 36, 36);
+color: white;
+}
+.dark-mode-3{
+    border-color: rgb(72, 72, 74);
+    background-image:  linear-gradient(to bottom,  #000000, #515151b5);
+
+    
+}
+.colorred{
+    background-color: aqua;
+    background-color: #47abd5;
+    background: #47abd5;
+}
+.tasks{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.main-content{
+    position: fixed;
+    top: 100px;
+    
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+.tasks{
+    
+    display:inline-block;
+    background-color: rgb(181, 181, 181);
+   
+    border: none;
+    justify-content: flex-end;
+    border-radius: 150px;
+    margin-bottom: 0px;
+    
+}
+input{
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(181, 181, 181);
+    padding: 5px;
+    padding-right: 40px; 
+    float: right;
+    margin-top: 10px;
+    
+}
+.add{
+    margin-top: 10px;
+    border-radius: 30px;
+    border-color: rgb(72, 72, 74);
+    background-color:rgb(255, 0, 0);
+    padding: 4px;
+    padding-left: 10px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    right: 00px;
+    text-align: center;
+    align-items: center;
+
+}
+.tasktext{
+    font-size: 40px;
+    font-weight: 700;
+    vertical-align: middle;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+     /* Adjust the top value based on your layout */
+    margin-left: -190px; /* Adjust the top value based on your layout */
+   
+}
+li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+
+}
+
+ul li::before{
+   
+    content: "\25CB";
+    justify-content: space-between;
+    font-size: 55px;
+    display: inline-block;
+    width: 25px; /* Adjust the value to control the circle size */
+    height: 25px; /* Adjust the value to control the circle size */
+    border-radius: 50%;
+    background-color: transparent; /* Adjust the circle color as needed */
+    margin-right: 20px;
+    margin-top: -50px;
+    
+
+}
+ul li.checked::before{
+    text-decoration: none;
+    content: "\25CF";
+}
+ul li.checked::selection{
+text-decoration: line-through;
+}
+
+ul li span {
+    width: 40px;
+    height: 40px;
+    font-size: 32px;
+    color: #000000;
+    margin-left: auto;
+    text-align: center;
+    text-decoration: none;
+  }
+  ul li span:hover {
+    background-color: transparent;
+  }
+  .outside-container {
+    position: absolute;
+    top: 50px; /* Adjust the top value based on your layout */
+    left: 350px; /* Adjust the left value based on your layout */
+}
+
+#list-container{
+    margin-top: 70px;
+}
+.dot{
+    margin-top: 7px;
+    margin-right: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 0px;
+    float: right;
+    color: white;
+}
+.greeting{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#random-quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    margin-left: 115px;
+    word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .subtitle {
+      flex-direction: column;
+    }
+}
+@media (min-width: 1200px) {
+    .greetings {
+      margin-left: 225px; /* Adjust the margin-right to create the desired spacing for larger screens */
+    }
+  }  
+/* Media Query for split-screen */
+@media (orientation: landscape) and (max-width: 1200px) {
+    .subtitle {
+      flex-direction: row;
+    }
+  
+    .greetings {
+      margin-right: 400px; /* Adjust the margin-right to create the desired spacing for split-screen */
+    }
+    
+  }
+.qotd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 0;
+   /* Allow the element to grow and take up available vertical space */
+}
+
+#priority{
+    margin-right: 400px;
+}
+.location{
+    margin-left: 500px;
+}
+.delete-button{
+
+}
+#myModal{
+    margin-top: 100px;
+}
+.version{
+    margin-top: 5px;
+    float: left;
+    flex-wrap: nowrap;
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.sun-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px; /* Adjust this margin as needed */
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(to top right, #00b3ff, #120fb9);
+    margin-left: 50px;
+    border-radius: 25px;
+    box-shadow: -10px 5px 7px #3c4346;
+    cursor: pointer;
+  }
+  
+  .sun {
+    color: #ffee00;
+    margin-top: 25px;
+    border: #47abd5;
+    border-radius: 4px;
+    font-size: 50px; /* Adjust the size of the sun icon as needed */
+  }
+  .app-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px; /* Adjust this margin as needed */
+    margin-left: 45px;
+    position: absolute;
+    width: 100px;
+    color: white;
+  }
+  .weather-text{
+    color: white;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 60px;
+  }
+  #weather-modal-content{
+    background-image: linear-gradient(to top right, #00b3ff, #120fb9);}
+  .btn-close{
+    color: white;
+  }
+  #close-button{
+    margin-left: 50px;
+    color: white;
+  }
+  .modal-body,.weather-mini-icon{
+    color: white;
+    font-size: 20px;
+   
+    
+  }
+  .weather-mini-icon{
+    margin-top: -10px;
+    width: 80px;
+    height: 80px;
+  }
+  .weather-city{
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .temperature{
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .delete-button{
+    margin-top: 5px;
+    margin-left: 550px;
+    cursor: pointer;
+  }
