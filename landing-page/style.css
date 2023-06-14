@@ -1,0 +1,84 @@
+*{
+    --blue-: #00a6ffb5;
+    --darker-blue- : #266d93b5;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom , #2b5876, #516395);
+    background-attachment: fixed;
+    color: white;
+    
+    
+}
+
+p{
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+header{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+ul{
+    display: flex;
+    font-size: large;
+    align-items: center;
+    font-weight: 500;
+    list-style: none;
+}
+li{
+    margin-left: 10px;
+    cursor: pointer;
+    
+    
+}
+.container p{
+    font-weight: 00;   
+}
+.main-title,.subtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.placeholder-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    font-weight: 200;
+}
+.btn{
+    color: white;
+    background-color: rgb(208, 208, 208);
+}
+
+.pawfecttasks{
+    margin-top: 9px;
+}
+img{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:  2%;
+}
+.get-started-button {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 255);
+    background: white;
+    border-radius: 15px;
+    list-style: none;
+    text-decoration: none;
+}
+

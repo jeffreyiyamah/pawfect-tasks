@@ -35,6 +35,7 @@ h1{
     text-align: center;
     margin-top: 5px;
     margin-bottom: 0;
+    z-index: 20;
     justify-content: center;
     background-color: transparent;
     color: white;
@@ -46,7 +47,7 @@ h1{
     height: 35px;
     margin-top: 0;
     margin-bottom: 0px;
-    background-image: linear-gradient(to top right, #8e1e1e, #ff0000b5);
+    background-image: linear-gradient(to top right,#00a6ffb5, #266d93b5);
     z-index: 3;
     border-radius: 0.75 px;
     display:grid
@@ -60,10 +61,10 @@ h1{
     position: fixed;
     top: 0;
     right: 0;
-    height: 900px;
+    height: 100%;
     width: 300px;
     border-top-left-radius: 30px;
-    background-image: linear-gradient(to top right, #ff0000b5, #8e1e1e);
+    background-image: linear-gradient(to top right, #00a6ffb5, #266d93b5);
   }
   .calendar_weather i.fa-solid.fa-plus{
    display: flex;
@@ -175,7 +176,7 @@ span{
     width: 150px;
     z-index: 1;
     border-bottom-right-radius: 10.5px;
-    background-image: linear-gradient(to bottom, #8e1e1e, #ff0000b5);
+    background-image: linear-gradient(to bottom, #00a6ffb5, #266d93b5);
     color: white;
     box-shadow: 5px,5px,5px grey;
 }
@@ -192,7 +193,7 @@ footer{
     bottom: 0;
     width: 100%;
     height:30px;
-    background-image: linear-gradient(to top right, #8e1e1e, #ff0000b5);
+    background-image: linear-gradient(to top right,#00a6ffb5, #266d93b5);
 }
 
 .dark-mode{
